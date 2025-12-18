@@ -1,0 +1,276 @@
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+body {
+  background-color: #f3f5f7;
+
+}
+.header .wrapper{
+display: flex;
+padding-top: 29px;
+}
+
+.logo {
+  width: 195px; 
+  height: 41px;
+  display: block;
+  background-image: url(../images/logo.png);
+  font-size: 0;
+}
+
+.nav {
+  padding-left: 102px;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav li {
+  margin-right:24px ;
+}
+
+.nav a {
+  display: block;
+  padding: 6px 8px;
+  line-height: 27px;
+  font-size: 19px;    
+}
+/*  active 表示 默认选中的a标签*/
+.nav li .active,
+.nav li a:hover {
+  border-bottom: 2px solid #00a4ff;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  width: 412px;
+  height: 40px;
+  background-color: #f3f5f7;
+  border-radius: 20px;        
+  background-image: url(../images/search.png);
+  
+  background-repeat: no-repeat;
+  background-position:380px;
+  padding-left: 10px;             
+  padding-right: 12px;
+}
+
+.search input::placeholder {
+  font-size: 14px;
+  color: #999;
+}
+
+.user {
+  margin-left: 32px;
+  margin-top: 4px;
+
+}
+
+.user img {
+  vertical-align:middle ;
+  /* 行内块和行内垂直方向对齐方式 */
+  margin-right: 7px;
+}
+
+.user span {
+  font-size: 16px;
+  color: #666;
+}
+
+.banner {
+  background-color: #0092cb;
+  width: 1920px;
+  height: 420px;
+  margin-top: 50px;
+}
+.banner .wrapper {
+  background-image: url(../uploads/banner.png);
+  height: 420px;
+  display: flex;
+  justify-content: space-between;
+  /* 弹性盒子主轴对齐方式 */
+}
+
+.banner .left {
+background-color:rgba(0,0,0,0.42);
+width: 191px;
+height: 420px;
+padding: 3px 20px;
+}
+
+.left li a {
+display: block;
+/* 宽度等于父级 控制左右padding*/
+color:white;
+background: url(../images/right.png) no-repeat right;
+height: 46px;
+line-height: 46px;
+}
+
+.left a:hover {
+  color:#00a4ff;
+  background-image: url(../images/right-hover.png);
+}
+
+.banner .right {
+  width: 218px;
+  height: 305px;
+  background-color: #209dd5;
+  margin-top: 60px;
+  border-radius: 10px;
+
+}
+
+.banner .right h3 {
+ padding-left: 14px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.right .content {
+  height: 257px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.banner .right dl {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.banner .right dt {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.banner .right dd {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.banner .right dd span {
+  color: #00a4ff;
+}
+
+.banner .right dd strong {
+  color: #7d7d7d;
+  font-weight: 400;
+}
+
+.banner .right a {
+  display: block;
+  height: 32px;
+  background-color: #00a4ff;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.recommend {
+  display: flex;
+  margin-top: 11px;
+  padding: 0 20px;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(211, 211, 211, 0.5);
+  line-height: 60px;
+}
+
+.recommend ul {
+  display: flex;
+  flex: 1;
+}
+
+.recommend ul li {
+  padding: 0 24px;
+  border-right: 1px solid #e0e0e0;
+  font-size: 18px;
+}
+
+.recommend .modify {
+  font-size: 16px;
+  color: #00a4ff;
+}
+
+.course {
+  margin-top: 15px;
+}
+
+.hd {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  line-height: 60px;
+}
+
+.hd h3 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.hd .more {
+  padding-right: 20px;
+  background: url(../images/more.png) no-repeat right center;
+  font-size: 14px;
+  color: #999;
+}
+
+.bd ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bd li {
+  margin-bottom: 14px;
+  width: 228px;
+  height: 271px;
+  background-color: pink;
+}
+
+.bd li .pic {
+  height: 156px;
+}
+
+.bd li .text {
+  padding: 20px;
+  height: 115px;
+  background-color: #fff;
+}
+
+.bd li .text h4 {
+  margin-bottom: 13px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.bd li .text p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #999;
+}
+
+.bd li .text p span {
+  color: #fa6400;
+}
+
+.bd li .text p i {
+  font-style: normal;
+}
