@@ -1,0 +1,15 @@
+com\example\tliaswebmanagement\service\impl\EmpServiceImpl.class
+com\example\tliaswebmanagement\service\impl\DeptServiceImpl.class
+com\example\tliaswebmanagement\controller\DeptController.class
+com\example\tliaswebmanagement\pojo\Result.class
+com\example\tliaswebmanagement\pojo\Dept.class
+com\example\tliaswebmanagement\TliasWebManagementApplication.class
+com\example\tliaswebmanagement\pojo\EmpExpr.class
+com\example\tliaswebmanagement\mapper\EmpExprMapper.class
+com\example\tliaswebmanagement\pojo\PageResult.class
+com\example\tliaswebmanagement\service\EmpService.class
+com\example\tliaswebmanagement\controller\EmpController.class
+com\example\tliaswebmanagement\service\DeptService.class
+com\example\tliaswebmanagement\pojo\Emp.class
+com\example\tliaswebmanagement\mapper\DeptMapper.class
+com\example\tliaswebmanagement\mapper\EmpMapper.class
